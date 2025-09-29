@@ -1,0 +1,1296 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ICC DVR PCL EAMP FLZCU_HCU_IC FLZCU_IC HCU_IC FLZCU_Signal_IC CGW TBOX FRZCU
+
+
+BO_ 1121 EAMP_1: 8 EAMP
+ SG_ STAT_AMPNaviVolume : 3|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPVRVolume : 7|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPKeyTone : 9|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPMediaVolume : 15|6@0+ (1,0) [0|63] "" ICC
+ SG_ STAT_AMPPhoneVolume : 20|5@0+ (1,0) [0|31] "" ICC
+ SG_ STAT_AMPSoundFocus : 23|3@0+ (1,0) [0|7] "" ICC
+ SG_ STAT_AMPSoundEffect : 27|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundEffectBass : 31|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundEffectMidrange : 35|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundEffectTreble : 39|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundFieldBalance : 43|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundFieldFader : 47|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_REQ_AMPA2BMediaSound : 49|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_REQ_AMPA2BNaviSound : 51|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_REQ_AMPA2BVRSound : 53|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_REQ_AMPA2BTTSSound : 55|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_REQ_AMPA2BPhoneSound : 57|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_REQ_AMPAlarm : 63|6@0+ (1,0) [0|63] "" ICC
+
+BO_ 1140 EAMP_2: 8 EAMP
+ SG_ STAT_AMPMediaDuck : 1|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPSpeedVolume : 5|3@0+ (1,0) [0|7] "" ICC
+ SG_ STAT_AMPMute : 7|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPRestoreDefaults : 9|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPAlarmVolume : 13|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_Headrest_Mode : 15|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPSoundEffectMegaBass : 19|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundEffectMidBass : 23|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_AMPSoundEffectMidTreble : 27|4@0+ (1,0) [0|15] "" ICC
+ SG_ STAT_VirtualSbwfrOnOff : 29|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_SurndFnOnOff : 31|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPBackgroundVolume : 37|6@0+ (1,0) [0|63] "" ICC
+ SG_ STAT_AMPSoundBypass : 39|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPPwrRdySts : 41|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPVersion : 47|6@0+ (1,0) [0|63] "" ICC
+
+BO_ 1206 EAMP_3: 8 EAMP
+ SG_ EAMP_AMPKTVvoiceVolumeFed : 5|6@0+ (1,0) [0|63] "" ICC
+ SG_ EAMP_AMPENCVolumeFed : 13|6@0+ (1,0) [0|63] "" ICC
+ SG_ EAMP_AMPA2BKTVvoiceSoundFed : 18|3@0+ (1,0) [0|7] "" ICC
+ SG_ STAT_AMPSoundFocus_2 : 23|4@0+ (1,0) [0|15] "" ICC
+ SG_ EAMP_AMPA2BENCSoundFed : 7|2@0+ (1,0) [0|3] "" ICC
+ SG_ EAMP_AMPA2BChimeSoundFed : 15|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPLoudness : 31|2@0+ (1,0) [0|3] "" ICC
+ SG_ STAT_AMPKeyVolume : 29|6@0+ (1,0) [0|63] "" ICC
+ SG_ STAT_AMPExSoundmode : 39|3@0+ (1,0) [0|7] "" ICC
+ SG_ STAT_AMPA2BENCSound : 36|3@0+ (1,0) [0|7] "" ICC
+
+BO_ 1381 EAMP_4: 64 EAMP
+ SG_ STAT_EAMPMonitor1 : 7|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor2 : 15|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor3 : 23|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor4 : 31|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor5 : 39|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor6 : 47|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor7 : 55|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor8 : 63|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor9 : 71|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor10 : 79|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor11 : 87|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor12 : 95|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor13 : 103|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor14 : 111|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor15 : 119|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor16 : 127|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor17 : 135|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor18 : 143|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor19 : 151|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor20 : 159|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor21 : 167|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor22 : 175|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor23 : 183|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor24 : 191|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor25 : 199|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor26 : 207|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor27 : 215|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor28 : 223|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor29 : 231|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor30 : 239|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor31 : 247|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor32 : 255|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor33 : 263|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor34 : 271|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor35 : 279|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor36 : 287|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor37 : 295|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor38 : 303|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor39 : 311|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor40 : 319|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor41 : 327|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor42 : 335|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor43 : 343|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor44 : 351|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor45 : 359|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor46 : 367|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor47 : 375|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor48 : 383|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor49 : 391|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor50 : 399|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor51 : 407|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor52 : 415|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor53 : 423|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor54 : 431|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor55 : 439|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor56 : 447|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor57 : 455|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor58 : 463|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor59 : 471|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor60 : 479|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor61 : 487|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor62 : 495|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor63 : 503|8@0+ (1,0) [0|255] "" CGW,TBOX
+ SG_ STAT_EAMPMonitor64 : 511|8@0+ (1,0) [0|255] "" CGW,TBOX
+
+BO_ 1438 EAMP_RemoteDiag: 32 EAMP
+ SG_ EAMP_TotalFaultNum : 7|8@0+ (1,0) [0|255] "" TBOX
+ SG_ EAMP_FrameIndex : 12|5@0+ (1,0) [0|31] "" TBOX
+ SG_ EAMP_SupplierNum : 15|3@0+ (1,0) [0|7] "" TBOX
+ SG_ EAMP_FaultNum1 : 23|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum2 : 27|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum3 : 47|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum4 : 51|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum5 : 71|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum6 : 75|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum7 : 95|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum8 : 99|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum9 : 119|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum10 : 123|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum11 : 143|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum12 : 147|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum13 : 167|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum14 : 171|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum15 : 191|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum16 : 195|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum17 : 215|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum18 : 219|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum19 : 239|12@0+ (1,0) [0|4095] "" TBOX
+ SG_ EAMP_FaultNum20 : 243|12@0+ (1,0) [0|4095] "" TBOX
+
+BO_ 1413 EAMP_TX: 64 EAMP
+ SG_ EAMP_CESHI_TX : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1412 EAMP_RX: 64 EAMP
+ SG_ EAMP_CESHI_RX : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1578 NMm_EAMP: 8 EAMP
+ SG_ srcNodeID_EAMP : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ RMR_EAMP : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NMm_EAMP_Reserved1 : 15|7@0+ (1,0) [0|127] "" Vector__XXX
+ SG_ EAMP_Wakeup_Poweron : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EAMP_Wakeup_NM : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EAMP_Wakeup_Diag : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EAMP_Awake_Poweron : 40|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EAMP_Awake_NM : 41|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EAMP_Awake_Diag : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1999 Diag_EAMP_RES: 64 EAMP
+ SG_ Diag_EAMP_RES : 7|64@0+ (1,0) [0|18446744073709551615] "" CGW
+
+BO_ 1871 Diag_EAMP_REQ: 64 CGW
+ SG_ Diag_EAMP_REQ : 7|64@0+ (1,0) [0|18446744073709551615] "" EAMP
+
+BO_ 1322 ICC_IC_2: 8 ICC
+ SG_ STAT_AMPAlarm : 7|6@0+ (1,0) [0|63] "" EAMP
+
+BO_ 1100 ICC_IC_9: 8 ICC
+ SG_ Set_AMPNaviVolume : 3|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPVRVolume : 7|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPKeyTone : 9|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPMediaVolume : 15|6@0+ (1,0) [0|63] "" EAMP
+ SG_ Set_AMPPhoneVolume : 20|5@0+ (1,0) [0|31] "" EAMP
+ SG_ Set_AMPSoundFocus : 23|3@0+ (1,0) [0|7] "" EAMP
+ SG_ Set_AMPSoundEffect : 27|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundEffectBass : 31|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundEffectMidrange : 35|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundEffectTreble : 39|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundFieldBalance : 43|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundFieldFader : 47|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_Headrest_Mode : 55|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_SurndFnOnOff : 61|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_VirtualSbwfrOnOff : 63|2@0+ (1,0) [0|1] "" EAMP
+
+BO_ 1119 ICC_IC_10: 8 ICC
+ SG_ Set_AMPMediaDuck : 1|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPSpeedVolume : 5|3@0+ (1,0) [0|7] "" EAMP
+ SG_ Set_AMPMute : 7|2@0+ (1,0) [0|3] "" EAMP
+ SG_ REQ_AMPA2BMediaSound : 9|2@0+ (1,0) [0|3] "" EAMP
+ SG_ REQ_AMPA2BNaviSound : 11|2@0+ (1,0) [0|3] "" EAMP
+ SG_ REQ_AMPA2BVRSound : 13|2@0+ (1,0) [0|3] "" EAMP
+ SG_ REQ_AMPA2BTTSSound : 15|2@0+ (1,0) [0|3] "" EAMP
+ SG_ REQ_AMPA2BKeyTone : 23|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPRestoreDefaults : 25|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPAlarmVolume : 29|4@0+ (1,0) [0|15] "" EAMP
+ SG_ REQ_AMPA2BPhoneSound : 31|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPSoundEffectMegaBass : 35|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundEffectMidBass : 39|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPSoundEffectMidTreble : 43|4@0+ (1,0) [0|15] "" EAMP
+ SG_ Set_AMPBackgroundVolume : 53|6@0+ (1,0) [0|63] "" EAMP
+ SG_ Set_AMPSoundBypass : 45|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPA2BConfig : 47|2@0+ (1,0) [0|3] "" EAMP
+
+BO_ 1331 ICC_IC_37: 32 ICC
+ SG_ ICC_AMPKTVvoiceVolumeSet : 45|6@0+ (1,0) [0|63] "" EAMP
+ SG_ ICC_AMPA2BENCSoundReq : 47|2@0+ (1,0) [0|3] "" EAMP
+ SG_ ICC_AMPENCVolumeSet : 53|6@0+ (1,0) [0|63] "" EAMP
+ SG_ ICC_AMPA2BChimeSoundReq : 55|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPSoundFocus_2 : 63|4@0+ (1,0) [0|15] "" EAMP
+ SG_ ICC_AMPA2BKTVvoiceSoundReq : 58|3@0+ (1,0) [0|7] "" EAMP
+ SG_ Set_AMPLoudness : 83|2@0+ (1,0) [0|3] "" EAMP
+ SG_ Set_AMPKeyVolume : 119|6@0+ (1,0) [0|63] "" EAMP
+ SG_ Set_AMPExSoundmode : 113|3@0+ (1,0) [0|7] "" EAMP
+ SG_ Set_AMPA2BENCSound : 126|3@0+ (1,0) [0|7] "" EAMP
+
+BO_ 1181 FLZCU_9: 8 FLZCU_HCU_IC
+ SG_ FLZCU_9_PowerMode : 17|2@0+ (1,0) [0|3] "" ICC,DVR,PCL,EAMP
+
+BO_ 1204 VCU_1_G: 8 FLZCU_HCU_IC
+ SG_ VCU_1_G_PRNDGearAct : 62|3@0+ (1,0) [0|7] "" ICC,DVR,PCL,EAMP
+
+BO_ 2015 OBD_REQ_Broadcast: 64 CGW
+ SG_ Diag_Functional_REQ : 7|64@0+ (1,0) [0|18446744073709551615] "" ICC,DVR,PCL,EAMP
+
+BO_ 1162 ONEBOX_1_G: 8 CGW
+ SG_ VehicleSpeedVSOSig : 23|13@0+ (0.0625,0) [0|511.875] "km/h" ICC,DVR,PCL,EAMP
+ SG_ VehicleSpeedVSOSigValidData : 26|1@0+ (1,0) [0|1] "" ICC,DVR,PCL,EAMP
+
+BO_ 1202 EMS_1_G: 8 CGW
+ SG_ EMS_EngineSts_Actual : 53|1@0+ (1,0) [0|1] "" ICC,EAMP
+
+BO_ 1172 TMS_1: 8 CGW
+ SG_ BlowSpeedLevelDisplaySts : 44|4@0+ (1,0) [0|15] "" ICC,EAMP
+
+BO_TX_BU_ 1181 : FLZCU_HCU_IC,FLZCU_IC,FLZCU_Signal_IC;
+BO_TX_BU_ 1204 : FLZCU_HCU_IC,HCU_IC;
+
+CM_ SG_ 1121 STAT_AMPNaviVolume "Amplifier navigation volume status
+反馈-导航音量设定";
+CM_ SG_ 1121 STAT_AMPVRVolume "Amplifier voice recognize volume status
+反馈语音音量设定";
+CM_ SG_ 1121 STAT_AMPKeyTone "Amplifier key tone status
+反馈按键音开关";
+CM_ SG_ 1121 STAT_AMPMediaVolume "Amplifier media volume status
+反馈媒体音量设定";
+CM_ SG_ 1121 STAT_AMPPhoneVolume "Amplifier phone volume status
+反馈电话音量设定";
+CM_ SG_ 1121 STAT_AMPSoundFocus "Amplifier sound focus status
+反馈音场（最佳听音位）设定";
+CM_ SG_ 1121 STAT_AMPSoundEffect "Amplifier sound effect status
+反馈-音效设定（预设EQ）";
+CM_ SG_ 1121 STAT_AMPSoundEffectBass "Amplifier sound effect bass status
+反馈-低音设定（用户自定义EQ下）";
+CM_ SG_ 1121 STAT_AMPSoundEffectMidrange "Amplifier sound effect midrange status
+反馈-中音设定（用户自定义EQ下）";
+CM_ SG_ 1121 STAT_AMPSoundEffectTreble "Amplifier sound effect treble status
+反馈-高音设定（用户自定义EQ下）";
+CM_ SG_ 1121 STAT_AMPSoundFieldBalance "Amplifier sound field balance status
+反馈-Balance设定（用户自定义声场)";
+CM_ SG_ 1121 STAT_AMPSoundFieldFader "Amplifier sound field fader status
+反馈-反馈-Fader设定（用户自定义声场）";
+CM_ SG_ 1121 STAT_REQ_AMPA2BMediaSound "Status of Head unit media sound request to amplifier
+媒体音源需求状态";
+CM_ SG_ 1121 STAT_REQ_AMPA2BNaviSound "Status of Head unit navigation sound request to amplifier
+导航音源需求状态";
+CM_ SG_ 1121 STAT_REQ_AMPA2BVRSound "Status of Head unit VR sound request to amplifier
+VR/Siri音源需求状态";
+CM_ SG_ 1121 STAT_REQ_AMPA2BTTSSound "Status of Head unit TTS sound request to amplifier
+TTS音源需求状态";
+CM_ SG_ 1121 STAT_REQ_AMPA2BPhoneSound "Status of Head unit BT Phone and Tbox sound request to amplifier
+电话/Tbox音源需求状态";
+CM_ SG_ 1121 STAT_REQ_AMPAlarm "Status of Instrument panel cluster alarm status to amplifier for chime play
+警报音需求状态";
+CM_ SG_ 1140 STAT_AMPMediaDuck "Media Duck request to amplifier/发送媒体降音反馈给主机";
+CM_ SG_ 1140 STAT_AMPSpeedVolume "Amplifier vehicle speed volume compensation status
+反馈-随速补偿等级设定";
+CM_ SG_ 1140 STAT_AMPMute "Amplifier audio mute or not status
+反馈-媒体音量开关";
+CM_ SG_ 1140 STAT_AMPRestoreDefaults "Amplifier audio restore defaults status/恢复默认音频参数设置状态";
+CM_ SG_ 1140 STAT_AMPAlarmVolume "Amplifier instrument panel cluster alarm volume status/警报音量值状态";
+CM_ SG_ 1140 STAT_Headrest_Mode "Headrest mode status/头枕模式状态";
+CM_ SG_ 1140 STAT_AMPSoundEffectMegaBass "Amplifier sound effect megabass feedback/重低音设定值反馈";
+CM_ SG_ 1140 STAT_AMPSoundEffectMidBass "Amplifier sound effect midbass feedback/中低音设定值反馈";
+CM_ SG_ 1140 STAT_AMPSoundEffectMidTreble "Amplifier sound effect midtreble feedback/中高音设定值反馈";
+CM_ SG_ 1140 STAT_VirtualSbwfrOnOff "Amplifier sound effect midtreble feedback/虚拟现场设定状态";
+CM_ SG_ 1140 STAT_SurndFnOnOff "Surround_On_Off_Request feedback/3D环绕设定状态";
+CM_ SG_ 1140 STAT_AMPBackgroundVolume "Amplifier background media volume status/背景音（迎宾音）音量值状态";
+CM_ SG_ 1140 STAT_AMPSoundBypass "Amplifier sound bypass status/第三方APP打开时，外置功放做音效bypass处理状态";
+CM_ SG_ 1140 STAT_AMPPwrRdySts "Amplifier Power Ready Status with A2B/A2B交互成功并支持出声后，反馈Ready";
+CM_ SG_ 1206 EAMP_AMPKTVvoiceVolumeFed "Feedback Amplifier KTV voice volume status
+反馈KTV人声音量设定";
+CM_ SG_ 1206 EAMP_AMPENCVolumeFed "Feedback Amplifier ENC volume status
+反馈ENC音量设定";
+CM_ SG_ 1206 EAMP_AMPA2BKTVvoiceSoundFed "Feedback Status of Head unit KTV voice/IESS sound request to amplifier
+反馈KTV人声/模拟声浪音源需求状态";
+CM_ SG_ 1206 STAT_AMPSoundFocus_2 "Amplifier sound focus status反馈音场（最佳听音位）设定";
+CM_ SG_ 1206 EAMP_AMPA2BENCSoundFed "Feedback Status of Head unit ENC sound request to amplifier
+反馈ENC音源需求状态";
+CM_ SG_ 1206 EAMP_AMPA2BChimeSoundFed "Feedback Status of Head unit Chime sound request to amplifier
+反馈Chime音源需求状态";
+CM_ SG_ 1206 STAT_AMPLoudness "Amplifier Loudness feedback/响度设定值反馈";
+CM_ SG_ 1206 STAT_AMPKeyVolume "Amplifier Keytone volume status/反馈按键音通道音量设定";
+CM_ SG_ 1206 STAT_AMPExSoundmode "Amplifier Exsound mode/高级音效模式";
+CM_ SG_ 1206 STAT_AMPA2BENCSound "扬声器位置反馈";
+CM_ SG_ 1381 STAT_EAMPMonitor1 "Status Monitor
+状态监控1";
+CM_ SG_ 1381 STAT_EAMPMonitor2 "Status Monitor
+状态监控2";
+CM_ SG_ 1381 STAT_EAMPMonitor3 "Status Monitor
+状态监控3";
+CM_ SG_ 1381 STAT_EAMPMonitor4 "Status Monitor
+状态监控4";
+CM_ SG_ 1381 STAT_EAMPMonitor5 "Status Monitor
+状态监控5";
+CM_ SG_ 1381 STAT_EAMPMonitor6 "Status Monitor
+状态监控6";
+CM_ SG_ 1381 STAT_EAMPMonitor7 "Status Monitor
+状态监控7";
+CM_ SG_ 1381 STAT_EAMPMonitor8 "Status Monitor
+状态监控8";
+CM_ SG_ 1381 STAT_EAMPMonitor9 "Status Monitor
+状态监控9";
+CM_ SG_ 1381 STAT_EAMPMonitor10 "Status Monitor
+状态监控10";
+CM_ SG_ 1381 STAT_EAMPMonitor11 "Status Monitor
+状态监控11";
+CM_ SG_ 1381 STAT_EAMPMonitor12 "Status Monitor
+状态监控12";
+CM_ SG_ 1381 STAT_EAMPMonitor13 "Status Monitor
+状态监控13";
+CM_ SG_ 1381 STAT_EAMPMonitor14 "Status Monitor
+状态监控14";
+CM_ SG_ 1381 STAT_EAMPMonitor15 "Status Monitor
+状态监控15";
+CM_ SG_ 1381 STAT_EAMPMonitor16 "Status Monitor
+状态监控16";
+CM_ SG_ 1381 STAT_EAMPMonitor17 "Status Monitor
+状态监控17";
+CM_ SG_ 1381 STAT_EAMPMonitor18 "Status Monitor
+状态监控18";
+CM_ SG_ 1381 STAT_EAMPMonitor19 "Status Monitor
+状态监控19";
+CM_ SG_ 1381 STAT_EAMPMonitor20 "Status Monitor
+状态监控20";
+CM_ SG_ 1381 STAT_EAMPMonitor21 "Status Monitor
+状态监控21";
+CM_ SG_ 1381 STAT_EAMPMonitor22 "Status Monitor
+状态监控22";
+CM_ SG_ 1381 STAT_EAMPMonitor23 "Status Monitor
+状态监控23";
+CM_ SG_ 1381 STAT_EAMPMonitor24 "Status Monitor
+状态监控24";
+CM_ SG_ 1381 STAT_EAMPMonitor25 "Status Monitor
+状态监控25";
+CM_ SG_ 1381 STAT_EAMPMonitor26 "Status Monitor
+状态监控26";
+CM_ SG_ 1381 STAT_EAMPMonitor27 "Status Monitor
+状态监控27";
+CM_ SG_ 1381 STAT_EAMPMonitor28 "Status Monitor
+状态监控28";
+CM_ SG_ 1381 STAT_EAMPMonitor29 "Status Monitor
+状态监控29";
+CM_ SG_ 1381 STAT_EAMPMonitor30 "Status Monitor
+状态监控30";
+CM_ SG_ 1381 STAT_EAMPMonitor31 "Status Monitor
+状态监控31";
+CM_ SG_ 1381 STAT_EAMPMonitor32 "Status Monitor
+状态监控32";
+CM_ SG_ 1381 STAT_EAMPMonitor33 "Status Monitor
+状态监控33";
+CM_ SG_ 1381 STAT_EAMPMonitor34 "Status Monitor
+状态监控34";
+CM_ SG_ 1381 STAT_EAMPMonitor35 "Status Monitor
+状态监控35";
+CM_ SG_ 1381 STAT_EAMPMonitor36 "Status Monitor
+状态监控36";
+CM_ SG_ 1381 STAT_EAMPMonitor37 "Status Monitor
+状态监控37";
+CM_ SG_ 1381 STAT_EAMPMonitor38 "Status Monitor
+状态监控38";
+CM_ SG_ 1381 STAT_EAMPMonitor39 "Status Monitor
+状态监控39";
+CM_ SG_ 1381 STAT_EAMPMonitor40 "Status Monitor
+状态监控40";
+CM_ SG_ 1381 STAT_EAMPMonitor41 "Status Monitor
+状态监控41";
+CM_ SG_ 1381 STAT_EAMPMonitor42 "Status Monitor
+状态监控42";
+CM_ SG_ 1381 STAT_EAMPMonitor43 "Status Monitor
+状态监控43";
+CM_ SG_ 1381 STAT_EAMPMonitor44 "Status Monitor
+状态监控44";
+CM_ SG_ 1381 STAT_EAMPMonitor45 "Status Monitor
+状态监控45";
+CM_ SG_ 1381 STAT_EAMPMonitor46 "Status Monitor
+状态监控46";
+CM_ SG_ 1381 STAT_EAMPMonitor47 "Status Monitor
+状态监控47";
+CM_ SG_ 1381 STAT_EAMPMonitor48 "Status Monitor
+状态监控48";
+CM_ SG_ 1381 STAT_EAMPMonitor49 "Status Monitor
+状态监控49";
+CM_ SG_ 1381 STAT_EAMPMonitor50 "Status Monitor
+状态监控50";
+CM_ SG_ 1381 STAT_EAMPMonitor51 "Status Monitor
+状态监控51";
+CM_ SG_ 1381 STAT_EAMPMonitor52 "Status Monitor
+状态监控52";
+CM_ SG_ 1381 STAT_EAMPMonitor53 "Status Monitor
+状态监控53";
+CM_ SG_ 1381 STAT_EAMPMonitor54 "Status Monitor
+状态监控54";
+CM_ SG_ 1381 STAT_EAMPMonitor55 "Status Monitor
+状态监控55";
+CM_ SG_ 1381 STAT_EAMPMonitor56 "Status Monitor
+状态监控56";
+CM_ SG_ 1381 STAT_EAMPMonitor57 "Status Monitor
+状态监控57";
+CM_ SG_ 1381 STAT_EAMPMonitor58 "Status Monitor
+状态监控58";
+CM_ SG_ 1381 STAT_EAMPMonitor59 "Status Monitor
+状态监控59";
+CM_ SG_ 1381 STAT_EAMPMonitor60 "Status Monitor
+状态监控60";
+CM_ SG_ 1381 STAT_EAMPMonitor61 "Status Monitor
+状态监控61";
+CM_ SG_ 1381 STAT_EAMPMonitor62 "Status Monitor
+状态监控62";
+CM_ SG_ 1381 STAT_EAMPMonitor63 "Status Monitor
+状态监控63";
+CM_ SG_ 1381 STAT_EAMPMonitor64 "Status Monitor
+状态监控64";
+CM_ SG_ 1438 EAMP_TotalFaultNum "当前故障总数";
+CM_ SG_ 1438 EAMP_FrameIndex "帧序号";
+CM_ SG_ 1438 EAMP_SupplierNum "供应商代码";
+CM_ SG_ 1438 EAMP_FaultNum1 "故障列表1";
+CM_ SG_ 1438 EAMP_FaultNum2 "故障列表2";
+CM_ SG_ 1438 EAMP_FaultNum3 "故障列表3";
+CM_ SG_ 1438 EAMP_FaultNum4 "故障列表4";
+CM_ SG_ 1438 EAMP_FaultNum5 "故障列表5";
+CM_ SG_ 1438 EAMP_FaultNum6 "故障列表6";
+CM_ SG_ 1438 EAMP_FaultNum7 "故障列表7";
+CM_ SG_ 1438 EAMP_FaultNum8 "故障列表8";
+CM_ SG_ 1438 EAMP_FaultNum9 "故障列表9";
+CM_ SG_ 1438 EAMP_FaultNum10 "故障列表10";
+CM_ SG_ 1438 EAMP_FaultNum11 "故障列表11";
+CM_ SG_ 1438 EAMP_FaultNum12 "故障列表12";
+CM_ SG_ 1438 EAMP_FaultNum13 "故障列表13";
+CM_ SG_ 1438 EAMP_FaultNum14 "故障列表14";
+CM_ SG_ 1438 EAMP_FaultNum15 "故障列表15";
+CM_ SG_ 1438 EAMP_FaultNum16 "故障列表16";
+CM_ SG_ 1438 EAMP_FaultNum17 "故障列表17";
+CM_ SG_ 1438 EAMP_FaultNum18 "故障列表18";
+CM_ SG_ 1438 EAMP_FaultNum19 "故障列表19";
+CM_ SG_ 1438 EAMP_FaultNum20 "故障列表20";
+CM_ SG_ 1578 RMR_EAMP "If set to 1 to force the network management of all other nodes on the bus into the re-peat message state.";
+CM_ SG_ 1578 EAMP_Wakeup_Poweron "Wakeup Source1 Reserved";
+CM_ SG_ 1578 EAMP_Wakeup_NM "NM报文";
+CM_ SG_ 1578 EAMP_Wakeup_Diag "Wakeup Source3 Reserved";
+CM_ SG_ 1578 EAMP_Awake_Poweron "Awake Reason1 Reserved";
+CM_ SG_ 1578 EAMP_Awake_NM "Awake Reason2 Reserved";
+CM_ SG_ 1578 EAMP_Awake_Diag "接收到本部件相关的诊断报文";
+CM_ SG_ 1322 STAT_AMPAlarm "Instrument panel cluster alarm status to amplifier for chime play";
+CM_ SG_ 1100 Set_AMPNaviVolume "Amplifier navigation volume status";
+CM_ SG_ 1100 Set_AMPVRVolume "Amplifier voice recognize volume status";
+CM_ SG_ 1100 Set_AMPKeyTone "Amplifier key tone status";
+CM_ SG_ 1100 Set_AMPMediaVolume "Amplifier media volume status";
+CM_ SG_ 1100 Set_AMPPhoneVolume "Amplifier phone volume status";
+CM_ SG_ 1100 Set_AMPSoundFocus "Amplifier sound focus status";
+CM_ SG_ 1100 Set_AMPSoundEffect "Amplifier sound effect status";
+CM_ SG_ 1100 Set_AMPSoundEffectBass "Amplifier sound effect bass status";
+CM_ SG_ 1100 Set_AMPSoundEffectMidrange "Amplifier sound effect midrange status";
+CM_ SG_ 1100 Set_AMPSoundEffectTreble "Amplifier sound effect treble status";
+CM_ SG_ 1100 Set_AMPSoundFieldBalance "Amplifier sound field balance status";
+CM_ SG_ 1100 Set_AMPSoundFieldFader "Amplifier sound field fader status";
+CM_ SG_ 1100 Set_Headrest_Mode "Headrest_Mode";
+CM_ SG_ 1100 Set_SurndFnOnOff "Surround Function On Off Switch";
+CM_ SG_ 1100 Set_VirtualSbwfrOnOff "Virtual_Subwoofer_On_Off_Request";
+CM_ SG_ 1119 Set_AMPMediaDuck "Media Duck request to amplifier/发送媒体降音需求给外置功放";
+CM_ SG_ 1119 Set_AMPSpeedVolume "Amplifier vehicle speed volume compensation setting";
+CM_ SG_ 1119 Set_AMPMute "Amplifier audio mute or not setting";
+CM_ SG_ 1119 REQ_AMPA2BMediaSound "Head unit media sound request to amplifier";
+CM_ SG_ 1119 REQ_AMPA2BNaviSound "Head unit navigation sound request to amplifier";
+CM_ SG_ 1119 REQ_AMPA2BVRSound "Head unit VR sound request to amplifier";
+CM_ SG_ 1119 REQ_AMPA2BTTSSound "Head unit TTS sound request to amplifier";
+CM_ SG_ 1119 REQ_AMPA2BKeyTone "Head unit Beep sound request to amplifier";
+CM_ SG_ 1119 Set_AMPRestoreDefaults "Amplifier audio restore defaults setting/恢复默认音频参数设置开关";
+CM_ SG_ 1119 Set_AMPAlarmVolume "Amplifier instrument panel cluster alarm volume setting/警报音量值设定";
+CM_ SG_ 1119 REQ_AMPA2BPhoneSound "Head unit BT Phone and Tbox sound request to amplifier/电话/Tbox音源需求设定";
+CM_ SG_ 1119 Set_AMPSoundEffectMegaBass "Amplifier sound effect megabass setting/重低音设定";
+CM_ SG_ 1119 Set_AMPSoundEffectMidBass "Amplifier sound effect midbass setting/中低音设定";
+CM_ SG_ 1119 Set_AMPSoundEffectMidTreble "Amplifier sound effect midtreble setting/中高音设定";
+CM_ SG_ 1119 Set_AMPBackgroundVolume "Amplifier background media volume status/背景音（迎宾音）音量值设定";
+CM_ SG_ 1119 Set_AMPSoundBypass "Amplifier sound bypass need/第三方APP打开时，外置功放做音效bypass处理";
+CM_ SG_ 1119 Set_AMPA2BConfig "Amplifier A2B Config status/EAMP的A2B节点配置完成后，下发OK";
+CM_ SG_ 1331 ICC_AMPKTVvoiceVolumeSet "Amplifier KTV voice volume status
+KTV人声音量设定";
+CM_ SG_ 1331 ICC_AMPA2BENCSoundReq "Head unit ENC sound request to amplifier
+ENC音源需求状态";
+CM_ SG_ 1331 ICC_AMPENCVolumeSet "Amplifier ENC volume status
+ENC声音量设定";
+CM_ SG_ 1331 ICC_AMPA2BChimeSoundReq "Head unit Chime sound request to amplifier
+Chime音源需求状态";
+CM_ SG_ 1331 Set_AMPSoundFocus_2 "Amplifier sound focus status";
+CM_ SG_ 1331 ICC_AMPA2BKTVvoiceSoundReq "Head unit KTV voice/IESS sound request to amplifier
+KTV人声/模拟声浪音源需求状态";
+CM_ SG_ 1331 Set_AMPLoudness "Amplifier Loudness setting / 响度设定";
+CM_ SG_ 1331 Set_AMPKeyVolume "Amplifier Keytone volume setting /设定按键音通道音量设定";
+CM_ SG_ 1331 Set_AMPExSoundmode "Amplifier Exsound mode setting / 设定高级音效模式";
+CM_ SG_ 1331 Set_AMPA2BENCSound "扬声器位置";
+CM_ SG_ 1181 FLZCU_9_PowerMode "低压电源状态(由0x27E拆帧)";
+CM_ SG_ 1204 VCU_1_G_PRNDGearAct "Gear indication实际档位";
+CM_ SG_ 1162 VehicleSpeedVSOSig "Vehicle Speed";
+CM_ SG_ 1162 VehicleSpeedVSOSigValidData "Valid check bit of the signal VehicleSpeedVSOSig";
+CM_ SG_ 1202 EMS_EngineSts_Actual "PHEV上，根据发动机真实的状态发送";
+CM_ SG_ 1172 BlowSpeedLevelDisplaySts "Blow_Speed_Level_feedback
+鼓风机档位
+0xB:Auto后面要加这个属性";
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "NmMessageCount" INT 0 255;
+BA_DEF_  "NmBaseAddress" HEX 1536 1663;
+BA_DEF_  "GRC_Net_History" STRING ;
+BA_DEF_ BU_ "NodeLayerModules" STRING ;
+BA_DEF_ BU_ "NmNode" ENUM "No","Yes";
+BA_DEF_ BU_ "ILUsed" ENUM "No","Yes";
+BA_DEF_ BU_ "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_ "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_ "CANoeDrift" INT 0 0;
+BA_DEF_ BU_ "CANoeStartDelay" INT 0 0;
+BA_DEF_ BO_ "GenMsgCycleTimeFast" INT 0 50000;
+BA_DEF_ BO_ "GenMsgNrOfRepetition" INT 0 999999;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgILSupport" ENUM "No","Yes";
+BA_DEF_ BO_ "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_ BO_ "GenMsgCycleTimeActive" INT 0 0;
+BA_DEF_ BO_ "NmMessage" ENUM "No","Yes";
+BA_DEF_ BO_ "DiagMessage" ENUM "No","Yes";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cycle","Event","IfActive","CE","CA","NoMsgSendType";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 50000;
+BA_DEF_ BO_ "CANFD_BRS" INT 0 1;
+BA_DEF_ BO_ "NmAsrMessage" ENUM "No","Yes";
+BA_DEF_ BO_ "DiagState" ENUM "No","Yes";
+BA_DEF_ BO_ "DiagRequest" ENUM "No","Yes";
+BA_DEF_ BO_ "DiagResponse" ENUM "No","Yes";
+BA_DEF_ BO_ "DiagConnection" INT 0 65535;
+BA_DEF_ BO_ "DiagUudtResponse" ENUM "False","True";
+BA_DEF_ BO_ "TpTxIndex" INT 0 255;
+BA_DEF_ BO_ "GRC_ASIL" ENUM "vector_leerstring","QM","A","B","C","D";
+BA_DEF_ BO_ "GRC_History" STRING ;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 100000000000;
+BA_DEF_ SG_ "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_ "GenSigInvalidValue" INT 0 100000;
+BA_DEF_ SG_ "GenSigSendType" ENUM "Cycle","OnChange","OnWrite","IfActive","OnChangeWithRepetition","OnWriteWithRepetition","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition","CA","CE","Event";
+BA_DEF_ SG_ "GRC_Sig_ASIL" ENUM "vector_leerstring","QM","A","B","C","D";
+BA_DEF_ SG_ "E2EDataId" INT 0 0;
+BA_DEF_ SG_ "E2EProfile" STRING ;
+BA_DEF_ SG_ "E2EDataLength" INT 0 512;
+BA_DEF_DEF_ "DBName" "";
+BA_DEF_DEF_ "BusType" "CAN FD";
+BA_DEF_DEF_ "Manufacturer" "";
+BA_DEF_DEF_ "NmMessageCount" 128;
+BA_DEF_DEF_ "NmBaseAddress" 1536;
+BA_DEF_DEF_ "GRC_Net_History" "";
+BA_DEF_DEF_ "NodeLayerModules" "";
+BA_DEF_DEF_ "NmNode" "No";
+BA_DEF_DEF_ "ILUsed" "No";
+BA_DEF_DEF_ "CANoeJitterMax" 0;
+BA_DEF_DEF_ "CANoeJitterMin" 0;
+BA_DEF_DEF_ "CANoeDrift" 0;
+BA_DEF_DEF_ "CANoeStartDelay" 0;
+BA_DEF_DEF_ "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_ "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgILSupport" "No";
+BA_DEF_DEF_ "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_ "GenMsgCycleTimeActive" 0;
+BA_DEF_DEF_ "NmMessage" "No";
+BA_DEF_DEF_ "DiagMessage" "No";
+BA_DEF_DEF_ "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "CANFD_BRS" 0;
+BA_DEF_DEF_ "NmAsrMessage" "No";
+BA_DEF_DEF_ "DiagState" "No";
+BA_DEF_DEF_ "DiagRequest" "No";
+BA_DEF_DEF_ "DiagResponse" "No";
+BA_DEF_DEF_ "DiagConnection" 0;
+BA_DEF_DEF_ "DiagUudtResponse" "False";
+BA_DEF_DEF_ "TpTxIndex" 0;
+BA_DEF_DEF_ "GRC_ASIL" "";
+BA_DEF_DEF_ "GRC_History" "";
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_DEF_DEF_ "GenSigInactiveValue" 0;
+BA_DEF_DEF_ "GenSigInvalidValue" 0;
+BA_DEF_DEF_ "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_ "GRC_Sig_ASIL" "";
+BA_DEF_DEF_ "E2EDataId" 0;
+BA_DEF_DEF_ "E2EProfile" "";
+BA_DEF_DEF_ "E2EDataLength" 0;
+BA_ "DBName" "T1J FL2 PHEV华为智驾版Message List IC CANFD(EEA5.1)_V1.2_20250415";
+BA_ "VFrameFormat" BO_ 1121 14;
+BA_ "CANFD_BRS" BO_ 1121 1;
+BA_ "GenMsgSendType" BO_ 1121 0;
+BA_ "GenMsgCycleTime" BO_ 1121 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1121 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1121 0;
+BA_ "GenMsgDelayTime" BO_ 1121 0;
+BA_ "GenMsgILSupport" BO_ 1121 1;
+BA_ "VFrameFormat" BO_ 1140 14;
+BA_ "CANFD_BRS" BO_ 1140 1;
+BA_ "GenMsgSendType" BO_ 1140 0;
+BA_ "GenMsgCycleTime" BO_ 1140 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1140 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1140 0;
+BA_ "GenMsgDelayTime" BO_ 1140 0;
+BA_ "GenMsgILSupport" BO_ 1140 1;
+BA_ "VFrameFormat" BO_ 1206 14;
+BA_ "CANFD_BRS" BO_ 1206 1;
+BA_ "GenMsgSendType" BO_ 1206 0;
+BA_ "GenMsgCycleTime" BO_ 1206 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1206 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1206 0;
+BA_ "GenMsgDelayTime" BO_ 1206 0;
+BA_ "GenMsgILSupport" BO_ 1206 1;
+BA_ "GRC_History" BO_ 1206 "[{'approvedBy':'贾少辉','author':'吴慧','changesComments':'姜新EAMP新增发送STAT_AMPLoudness和STAT_AMPKeyVolume和STAT_AMPExSoundmode和STAT_AMPA2BENCSound信号，ICC接收','date':'2025/4/15','ecu':'EAMP_3(0x4B6)','ecuName':'ICC,EAMP','reviewedBy':'杨华','revision':'V1.2'}]";
+BA_ "VFrameFormat" BO_ 1381 14;
+BA_ "CANFD_BRS" BO_ 1381 1;
+BA_ "GenMsgSendType" BO_ 1381 0;
+BA_ "GenMsgCycleTime" BO_ 1381 500;
+BA_ "GenMsgCycleTimeFast" BO_ 1381 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1381 0;
+BA_ "GenMsgDelayTime" BO_ 1381 0;
+BA_ "GenMsgILSupport" BO_ 1381 1;
+BA_ "GRC_History" BO_ 1381 "[{'approvedBy':'贾少辉','author':'吴慧','changesComments':'D01项目姜洪亮反馈ID占用实际不体现','date':'2025/3/4','ecu':'EAMP_4(0x565)','ecuName':'EAMP','reviewedBy':'杨华','revision':'V1.1'}]";
+BA_ "VFrameFormat" BO_ 1438 14;
+BA_ "CANFD_BRS" BO_ 1438 1;
+BA_ "GenMsgSendType" BO_ 1438 0;
+BA_ "GenMsgCycleTime" BO_ 1438 500;
+BA_ "GenMsgCycleTimeFast" BO_ 1438 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1438 0;
+BA_ "GenMsgDelayTime" BO_ 1438 0;
+BA_ "GenMsgILSupport" BO_ 1438 1;
+BA_ "VFrameFormat" BO_ 1413 14;
+BA_ "CANFD_BRS" BO_ 1413 1;
+BA_ "GenMsgSendType" BO_ 1413 1;
+BA_ "GenMsgCycleTime" BO_ 1413 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1413 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1413 0;
+BA_ "GenMsgDelayTime" BO_ 1413 0;
+BA_ "VFrameFormat" BO_ 1412 14;
+BA_ "CANFD_BRS" BO_ 1412 1;
+BA_ "GenMsgSendType" BO_ 1412 1;
+BA_ "GenMsgCycleTime" BO_ 1412 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1412 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1412 0;
+BA_ "GenMsgDelayTime" BO_ 1412 0;
+BA_ "VFrameFormat" BO_ 1578 0;
+BA_ "CANFD_BRS" BO_ 1578 0;
+BA_ "GenMsgSendType" BO_ 1578 0;
+BA_ "GenMsgCycleTime" BO_ 1578 1000;
+BA_ "GenMsgCycleTimeFast" BO_ 1578 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1578 0;
+BA_ "GenMsgDelayTime" BO_ 1578 0;
+BA_ "NmMessage" BO_ 1578 1;
+BA_ "NmAsrMessage" BO_ 1578 1;
+BA_ "VFrameFormat" BO_ 1999 14;
+BA_ "CANFD_BRS" BO_ 1999 1;
+BA_ "GenMsgSendType" BO_ 1999 1;
+BA_ "GenMsgCycleTime" BO_ 1999 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1999 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1999 0;
+BA_ "GenMsgDelayTime" BO_ 1999 0;
+BA_ "DiagMessage" BO_ 1999 1;
+BA_ "DiagResponse" BO_ 1999 1;
+BA_ "VFrameFormat" BO_ 1871 14;
+BA_ "CANFD_BRS" BO_ 1871 1;
+BA_ "GenMsgSendType" BO_ 1871 1;
+BA_ "GenMsgCycleTime" BO_ 1871 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1871 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1871 0;
+BA_ "GenMsgDelayTime" BO_ 1871 0;
+BA_ "DiagMessage" BO_ 1871 1;
+BA_ "DiagRequest" BO_ 1871 1;
+BA_ "VFrameFormat" BO_ 1322 14;
+BA_ "CANFD_BRS" BO_ 1322 1;
+BA_ "GenMsgSendType" BO_ 1322 1;
+BA_ "GenMsgCycleTime" BO_ 1322 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1322 100;
+BA_ "GenMsgNrOfRepetition" BO_ 1322 3;
+BA_ "GenMsgDelayTime" BO_ 1322 5;
+BA_ "GenMsgILSupport" BO_ 1322 1;
+BA_ "VFrameFormat" BO_ 1100 14;
+BA_ "CANFD_BRS" BO_ 1100 1;
+BA_ "GenMsgSendType" BO_ 1100 1;
+BA_ "GenMsgCycleTime" BO_ 1100 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1100 100;
+BA_ "GenMsgNrOfRepetition" BO_ 1100 3;
+BA_ "GenMsgDelayTime" BO_ 1100 5;
+BA_ "GenMsgILSupport" BO_ 1100 1;
+BA_ "VFrameFormat" BO_ 1119 14;
+BA_ "CANFD_BRS" BO_ 1119 1;
+BA_ "GenMsgSendType" BO_ 1119 1;
+BA_ "GenMsgCycleTime" BO_ 1119 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1119 100;
+BA_ "GenMsgNrOfRepetition" BO_ 1119 3;
+BA_ "GenMsgDelayTime" BO_ 1119 5;
+BA_ "GenMsgILSupport" BO_ 1119 1;
+BA_ "VFrameFormat" BO_ 1331 14;
+BA_ "CANFD_BRS" BO_ 1331 1;
+BA_ "GenMsgSendType" BO_ 1331 1;
+BA_ "GenMsgCycleTime" BO_ 1331 0;
+BA_ "GenMsgCycleTimeFast" BO_ 1331 100;
+BA_ "GenMsgNrOfRepetition" BO_ 1331 3;
+BA_ "GenMsgDelayTime" BO_ 1331 5;
+BA_ "GenMsgILSupport" BO_ 1331 1;
+BA_ "GRC_History" BO_ 1331 "[{'approvedBy':'贾少辉','author':'吴慧','changesComments':'姜新ICC新增发送Set_AMPLoudness和Set_AMPKeyVolume和Set_AMPExSoundmode和Set_AMPA2BENCSound信号，EAMP接收','date':'2025/4/15','ecu':'ICC_IC_37(0x533)','ecuName':'ICC,EAMP','reviewedBy':'杨华','revision':'V1.2'}]";
+BA_ "VFrameFormat" BO_ 1181 14;
+BA_ "CANFD_BRS" BO_ 1181 1;
+BA_ "GenMsgSendType" BO_ 1181 0;
+BA_ "GenMsgCycleTime" BO_ 1181 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1181 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1181 0;
+BA_ "GenMsgDelayTime" BO_ 1181 0;
+BA_ "GenMsgILSupport" BO_ 1181 1;
+BA_ "GRC_History" BO_ 1181 "[{'approvedBy':'贾少辉','author':'吴慧','changesComments':'（同步D01更改）李思思新增接收FLZCU_9_CentralLockingReq作为解尾门的条件（中控锁闭锁后，尾门不能解锁）','date':'2025/4/9','ecu':'FLZCU_9(0x49D)','ecuName':'FLZCU,PCL','reviewedBy':'杨华','revision':'V1.2'}]";
+BA_ "VFrameFormat" BO_ 1204 14;
+BA_ "CANFD_BRS" BO_ 1204 1;
+BA_ "GenMsgSendType" BO_ 1204 0;
+BA_ "GenMsgCycleTime" BO_ 1204 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1204 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1204 0;
+BA_ "GenMsgDelayTime" BO_ 1204 0;
+BA_ "GenMsgILSupport" BO_ 1204 1;
+BA_ "VFrameFormat" BO_ 2015 14;
+BA_ "CANFD_BRS" BO_ 2015 1;
+BA_ "GenMsgSendType" BO_ 2015 1;
+BA_ "GenMsgCycleTime" BO_ 2015 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2015 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2015 0;
+BA_ "GenMsgDelayTime" BO_ 2015 0;
+BA_ "DiagMessage" BO_ 2015 1;
+BA_ "DiagState" BO_ 2015 1;
+BA_ "VFrameFormat" BO_ 1162 14;
+BA_ "CANFD_BRS" BO_ 1162 1;
+BA_ "GenMsgSendType" BO_ 1162 0;
+BA_ "GenMsgCycleTime" BO_ 1162 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1162 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1162 0;
+BA_ "GenMsgDelayTime" BO_ 1162 0;
+BA_ "GenMsgILSupport" BO_ 1162 1;
+BA_ "GRC_ASIL" BO_ 1162 3;
+BA_ "VFrameFormat" BO_ 1202 14;
+BA_ "CANFD_BRS" BO_ 1202 1;
+BA_ "GenMsgSendType" BO_ 1202 0;
+BA_ "GenMsgCycleTime" BO_ 1202 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1202 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1202 0;
+BA_ "GenMsgDelayTime" BO_ 1202 0;
+BA_ "GenMsgILSupport" BO_ 1202 1;
+BA_ "VFrameFormat" BO_ 1172 14;
+BA_ "CANFD_BRS" BO_ 1172 1;
+BA_ "GenMsgSendType" BO_ 1172 0;
+BA_ "GenMsgCycleTime" BO_ 1172 100;
+BA_ "GenMsgCycleTimeFast" BO_ 1172 0;
+BA_ "GenMsgNrOfRepetition" BO_ 1172 0;
+BA_ "GenMsgDelayTime" BO_ 1172 0;
+BA_ "GenMsgILSupport" BO_ 1172 1;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPNaviVolume 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPNaviVolume 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPVRVolume 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPVRVolume 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPKeyTone 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPKeyTone 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPMediaVolume 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPMediaVolume 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPPhoneVolume 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPPhoneVolume 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundFocus 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundFocus 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundEffect 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundEffect 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundEffectBass 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundEffectBass 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundEffectMidrange 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundEffectMidrange 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundEffectTreble 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundEffectTreble 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundFieldBalance 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundFieldBalance 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_AMPSoundFieldFader 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_AMPSoundFieldFader 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_REQ_AMPA2BMediaSound 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_REQ_AMPA2BMediaSound 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_REQ_AMPA2BNaviSound 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_REQ_AMPA2BNaviSound 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_REQ_AMPA2BVRSound 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_REQ_AMPA2BVRSound 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_REQ_AMPA2BTTSSound 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_REQ_AMPA2BTTSSound 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_REQ_AMPA2BPhoneSound 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_REQ_AMPA2BPhoneSound 0;
+BA_ "GenSigSendType" SG_ 1121 STAT_REQ_AMPAlarm 0;
+BA_ "GenSigStartValue" SG_ 1121 STAT_REQ_AMPAlarm 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPMediaDuck 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPMediaDuck 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPSpeedVolume 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPSpeedVolume 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPMute 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPMute 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPRestoreDefaults 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPRestoreDefaults 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPAlarmVolume 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPAlarmVolume 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_Headrest_Mode 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_Headrest_Mode 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPSoundEffectMegaBass 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPSoundEffectMegaBass 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPSoundEffectMidBass 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPSoundEffectMidBass 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPSoundEffectMidTreble 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPSoundEffectMidTreble 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_VirtualSbwfrOnOff 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_VirtualSbwfrOnOff 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_SurndFnOnOff 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_SurndFnOnOff 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPBackgroundVolume 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPBackgroundVolume 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPSoundBypass 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPSoundBypass 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPPwrRdySts 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPPwrRdySts 0;
+BA_ "GenSigSendType" SG_ 1140 STAT_AMPVersion 0;
+BA_ "GenSigStartValue" SG_ 1140 STAT_AMPVersion 0;
+BA_ "GenSigSendType" SG_ 1206 EAMP_AMPKTVvoiceVolumeFed 0;
+BA_ "GenSigStartValue" SG_ 1206 EAMP_AMPKTVvoiceVolumeFed 0;
+BA_ "GenSigSendType" SG_ 1206 EAMP_AMPENCVolumeFed 0;
+BA_ "GenSigStartValue" SG_ 1206 EAMP_AMPENCVolumeFed 0;
+BA_ "GenSigSendType" SG_ 1206 EAMP_AMPA2BKTVvoiceSoundFed 0;
+BA_ "GenSigStartValue" SG_ 1206 EAMP_AMPA2BKTVvoiceSoundFed 0;
+BA_ "GenSigSendType" SG_ 1206 STAT_AMPSoundFocus_2 0;
+BA_ "GenSigStartValue" SG_ 1206 STAT_AMPSoundFocus_2 0;
+BA_ "GenSigSendType" SG_ 1206 EAMP_AMPA2BENCSoundFed 0;
+BA_ "GenSigStartValue" SG_ 1206 EAMP_AMPA2BENCSoundFed 0;
+BA_ "GenSigSendType" SG_ 1206 EAMP_AMPA2BChimeSoundFed 0;
+BA_ "GenSigStartValue" SG_ 1206 EAMP_AMPA2BChimeSoundFed 0;
+BA_ "GenSigSendType" SG_ 1206 STAT_AMPLoudness 0;
+BA_ "GenSigStartValue" SG_ 1206 STAT_AMPLoudness 0;
+BA_ "GenSigSendType" SG_ 1206 STAT_AMPKeyVolume 0;
+BA_ "GenSigStartValue" SG_ 1206 STAT_AMPKeyVolume 0;
+BA_ "GenSigSendType" SG_ 1206 STAT_AMPExSoundmode 0;
+BA_ "GenSigStartValue" SG_ 1206 STAT_AMPExSoundmode 0;
+BA_ "GenSigSendType" SG_ 1206 STAT_AMPA2BENCSound 0;
+BA_ "GenSigStartValue" SG_ 1206 STAT_AMPA2BENCSound 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor1 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor1 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor2 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor2 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor3 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor3 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor4 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor4 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor5 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor5 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor6 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor6 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor7 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor7 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor8 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor8 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor9 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor9 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor10 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor10 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor11 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor11 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor12 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor12 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor13 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor13 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor14 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor14 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor15 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor15 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor16 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor16 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor17 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor17 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor18 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor18 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor19 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor19 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor20 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor20 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor21 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor21 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor22 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor22 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor23 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor23 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor24 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor24 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor25 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor25 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor26 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor26 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor27 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor27 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor28 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor28 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor29 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor29 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor30 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor30 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor31 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor31 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor32 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor32 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor33 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor33 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor34 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor34 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor35 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor35 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor36 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor36 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor37 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor37 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor38 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor38 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor39 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor39 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor40 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor40 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor41 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor41 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor42 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor42 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor43 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor43 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor44 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor44 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor45 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor45 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor46 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor46 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor47 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor47 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor48 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor48 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor49 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor49 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor50 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor50 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor51 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor51 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor52 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor52 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor53 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor53 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor54 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor54 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor55 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor55 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor56 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor56 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor57 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor57 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor58 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor58 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor59 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor59 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor60 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor60 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor61 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor61 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor62 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor62 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor63 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor63 0;
+BA_ "GenSigSendType" SG_ 1381 STAT_EAMPMonitor64 0;
+BA_ "GenSigStartValue" SG_ 1381 STAT_EAMPMonitor64 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_TotalFaultNum 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_TotalFaultNum 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FrameIndex 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FrameIndex 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_SupplierNum 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_SupplierNum 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum1 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum1 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum2 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum2 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum3 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum3 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum4 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum4 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum5 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum5 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum6 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum6 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum7 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum7 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum8 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum8 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum9 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum9 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum10 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum10 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum11 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum11 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum12 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum12 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum13 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum13 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum14 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum14 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum15 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum15 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum16 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum16 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum17 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum17 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum18 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum18 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum19 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum19 0;
+BA_ "GenSigSendType" SG_ 1438 EAMP_FaultNum20 0;
+BA_ "GenSigStartValue" SG_ 1438 EAMP_FaultNum20 0;
+BA_ "GenSigSendType" SG_ 1413 EAMP_CESHI_TX 2;
+BA_ "GenSigStartValue" SG_ 1413 EAMP_CESHI_TX 0;
+BA_ "GenSigSendType" SG_ 1412 EAMP_CESHI_RX 2;
+BA_ "GenSigStartValue" SG_ 1412 EAMP_CESHI_RX 0;
+BA_ "GenSigSendType" SG_ 1578 srcNodeID_EAMP 0;
+BA_ "GenSigStartValue" SG_ 1578 srcNodeID_EAMP 42;
+BA_ "GenSigSendType" SG_ 1578 RMR_EAMP 0;
+BA_ "GenSigStartValue" SG_ 1578 RMR_EAMP 0;
+BA_ "GenSigSendType" SG_ 1578 NMm_EAMP_Reserved1 0;
+BA_ "GenSigStartValue" SG_ 1578 NMm_EAMP_Reserved1 0;
+BA_ "GenSigSendType" SG_ 1578 EAMP_Wakeup_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1578 EAMP_Wakeup_Poweron 0;
+BA_ "GenSigSendType" SG_ 1578 EAMP_Wakeup_NM 0;
+BA_ "GenSigStartValue" SG_ 1578 EAMP_Wakeup_NM 0;
+BA_ "GenSigSendType" SG_ 1578 EAMP_Wakeup_Diag 0;
+BA_ "GenSigStartValue" SG_ 1578 EAMP_Wakeup_Diag 0;
+BA_ "GenSigSendType" SG_ 1578 EAMP_Awake_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1578 EAMP_Awake_Poweron 0;
+BA_ "GenSigSendType" SG_ 1578 EAMP_Awake_NM 0;
+BA_ "GenSigStartValue" SG_ 1578 EAMP_Awake_NM 0;
+BA_ "GenSigSendType" SG_ 1578 EAMP_Awake_Diag 0;
+BA_ "GenSigStartValue" SG_ 1578 EAMP_Awake_Diag 0;
+BA_ "GenSigSendType" SG_ 1999 Diag_EAMP_RES 2;
+BA_ "GenSigStartValue" SG_ 1999 Diag_EAMP_RES 0;
+BA_ "GenSigSendType" SG_ 1871 Diag_EAMP_REQ 2;
+BA_ "GenSigStartValue" SG_ 1871 Diag_EAMP_REQ 0;
+BA_ "GenSigSendType" SG_ 1322 STAT_AMPAlarm 2;
+BA_ "GenSigStartValue" SG_ 1322 STAT_AMPAlarm 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPNaviVolume 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPNaviVolume 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPVRVolume 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPVRVolume 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPKeyTone 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPKeyTone 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPMediaVolume 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPMediaVolume 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPPhoneVolume 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPPhoneVolume 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundFocus 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundFocus 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundEffect 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundEffect 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundEffectBass 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundEffectBass 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundEffectMidrange 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundEffectMidrange 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundEffectTreble 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundEffectTreble 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundFieldBalance 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundFieldBalance 0;
+BA_ "GenSigSendType" SG_ 1100 Set_AMPSoundFieldFader 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_AMPSoundFieldFader 0;
+BA_ "GenSigSendType" SG_ 1100 Set_Headrest_Mode 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_Headrest_Mode 0;
+BA_ "GenSigSendType" SG_ 1100 Set_SurndFnOnOff 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_SurndFnOnOff 0;
+BA_ "GenSigSendType" SG_ 1100 Set_VirtualSbwfrOnOff 5;
+BA_ "GenSigStartValue" SG_ 1100 Set_VirtualSbwfrOnOff 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPMediaDuck 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPMediaDuck 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPSpeedVolume 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPSpeedVolume 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPMute 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPMute 0;
+BA_ "GenSigSendType" SG_ 1119 REQ_AMPA2BMediaSound 5;
+BA_ "GenSigStartValue" SG_ 1119 REQ_AMPA2BMediaSound 0;
+BA_ "GenSigSendType" SG_ 1119 REQ_AMPA2BNaviSound 5;
+BA_ "GenSigStartValue" SG_ 1119 REQ_AMPA2BNaviSound 0;
+BA_ "GenSigSendType" SG_ 1119 REQ_AMPA2BVRSound 5;
+BA_ "GenSigStartValue" SG_ 1119 REQ_AMPA2BVRSound 0;
+BA_ "GenSigSendType" SG_ 1119 REQ_AMPA2BTTSSound 5;
+BA_ "GenSigStartValue" SG_ 1119 REQ_AMPA2BTTSSound 0;
+BA_ "GenSigSendType" SG_ 1119 REQ_AMPA2BKeyTone 5;
+BA_ "GenSigStartValue" SG_ 1119 REQ_AMPA2BKeyTone 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPRestoreDefaults 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPRestoreDefaults 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPAlarmVolume 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPAlarmVolume 0;
+BA_ "GenSigSendType" SG_ 1119 REQ_AMPA2BPhoneSound 5;
+BA_ "GenSigStartValue" SG_ 1119 REQ_AMPA2BPhoneSound 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPSoundEffectMegaBass 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPSoundEffectMegaBass 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPSoundEffectMidBass 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPSoundEffectMidBass 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPSoundEffectMidTreble 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPSoundEffectMidTreble 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPBackgroundVolume 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPBackgroundVolume 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPSoundBypass 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPSoundBypass 0;
+BA_ "GenSigSendType" SG_ 1119 Set_AMPA2BConfig 5;
+BA_ "GenSigStartValue" SG_ 1119 Set_AMPA2BConfig 0;
+BA_ "GenSigSendType" SG_ 1331 ICC_AMPKTVvoiceVolumeSet 5;
+BA_ "GenSigStartValue" SG_ 1331 ICC_AMPKTVvoiceVolumeSet 0;
+BA_ "GenSigSendType" SG_ 1331 ICC_AMPA2BENCSoundReq 5;
+BA_ "GenSigStartValue" SG_ 1331 ICC_AMPA2BENCSoundReq 0;
+BA_ "GenSigSendType" SG_ 1331 ICC_AMPENCVolumeSet 5;
+BA_ "GenSigStartValue" SG_ 1331 ICC_AMPENCVolumeSet 0;
+BA_ "GenSigSendType" SG_ 1331 ICC_AMPA2BChimeSoundReq 5;
+BA_ "GenSigStartValue" SG_ 1331 ICC_AMPA2BChimeSoundReq 0;
+BA_ "GenSigSendType" SG_ 1331 Set_AMPSoundFocus_2 5;
+BA_ "GenSigStartValue" SG_ 1331 Set_AMPSoundFocus_2 0;
+BA_ "GenSigSendType" SG_ 1331 ICC_AMPA2BKTVvoiceSoundReq 5;
+BA_ "GenSigStartValue" SG_ 1331 ICC_AMPA2BKTVvoiceSoundReq 0;
+BA_ "GenSigSendType" SG_ 1331 Set_AMPLoudness 5;
+BA_ "GenSigStartValue" SG_ 1331 Set_AMPLoudness 0;
+BA_ "GenSigSendType" SG_ 1331 Set_AMPKeyVolume 5;
+BA_ "GenSigStartValue" SG_ 1331 Set_AMPKeyVolume 0;
+BA_ "GenSigSendType" SG_ 1331 Set_AMPExSoundmode 5;
+BA_ "GenSigStartValue" SG_ 1331 Set_AMPExSoundmode 0;
+BA_ "GenSigSendType" SG_ 1331 Set_AMPA2BENCSound 5;
+BA_ "GenSigStartValue" SG_ 1331 Set_AMPA2BENCSound 0;
+BA_ "GRC_Sig_ASIL" SG_ 1181 FLZCU_9_PowerMode 3;
+BA_ "GenSigSendType" SG_ 1181 FLZCU_9_PowerMode 0;
+BA_ "GenSigStartValue" SG_ 1181 FLZCU_9_PowerMode 0;
+BA_ "GRC_Sig_ASIL" SG_ 1204 VCU_1_G_PRNDGearAct 3;
+BA_ "GenSigSendType" SG_ 1204 VCU_1_G_PRNDGearAct 0;
+BA_ "GenSigStartValue" SG_ 1204 VCU_1_G_PRNDGearAct 0;
+BA_ "GenSigSendType" SG_ 2015 Diag_Functional_REQ 2;
+BA_ "GenSigStartValue" SG_ 2015 Diag_Functional_REQ 0;
+BA_ "GRC_Sig_ASIL" SG_ 1162 VehicleSpeedVSOSig 3;
+BA_ "GenSigSendType" SG_ 1162 VehicleSpeedVSOSig 0;
+BA_ "GenSigInvalidValue" SG_ 1162 VehicleSpeedVSOSig 8191;
+BA_ "GenSigStartValue" SG_ 1162 VehicleSpeedVSOSig 0;
+BA_ "GRC_Sig_ASIL" SG_ 1162 VehicleSpeedVSOSigValidData 3;
+BA_ "GenSigSendType" SG_ 1162 VehicleSpeedVSOSigValidData 0;
+BA_ "GenSigStartValue" SG_ 1162 VehicleSpeedVSOSigValidData 1;
+BA_ "GenSigSendType" SG_ 1202 EMS_EngineSts_Actual 0;
+BA_ "GenSigStartValue" SG_ 1202 EMS_EngineSts_Actual 0;
+BA_ "GenSigSendType" SG_ 1172 BlowSpeedLevelDisplaySts 0;
+BA_ "GenSigStartValue" SG_ 1172 BlowSpeedLevelDisplaySts 0;
+
+VAL_ 1121 STAT_AMPNaviVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1121 STAT_AMPVRVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1121 STAT_AMPKeyTone 0 "Not Active" 1 "ON" 2 "OFF" 3 "reserved" ;
+VAL_ 1121 STAT_AMPMediaVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1121 STAT_AMPPhoneVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "Reserved" 28 "Reserved" 29 "Reserved" 30 "Reserved" 31 "Reserved" ;
+VAL_ 1121 STAT_AMPSoundFocus 0 "Not Active" 1 "Customized" 2 "All" 3 "Driver" 4 "Sleep" 5 "VIP" 6 "Dolby7.1.4" 7 "Reserved" ;
+VAL_ 1121 STAT_AMPSoundEffect 0 "Not Active" 1 "Customer-defined mode" 2 "Standard mode" 3 "Popular mode" 4 "Jazz mode" 5 "Classic mode" 6 "Rock mode" 7 "Vocal mode" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1121 STAT_AMPSoundEffectBass 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1121 STAT_AMPSoundEffectMidrange 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1121 STAT_AMPSoundEffectTreble 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1121 STAT_AMPSoundFieldBalance 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1121 STAT_AMPSoundFieldFader 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1121 STAT_REQ_AMPA2BMediaSound 0 "Not Active" 1 "Media" 2 "Background" 3 "OFF" ;
+VAL_ 1121 STAT_REQ_AMPA2BNaviSound 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1121 STAT_REQ_AMPA2BVRSound 0 "Not Active" 1 "VR" 2 "Siri" 3 "OFF" ;
+VAL_ 1121 STAT_REQ_AMPA2BTTSSound 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1121 STAT_REQ_AMPA2BPhoneSound 0 "Not Active" 1 "BT Phone Sound ON" 2 "Tbox Sound ON" 3 "OFF" ;
+VAL_ 1121 STAT_REQ_AMPAlarm 0 "Not Active" 1 "Other CHIME" 2 "PDC_FL only" 3 "PDC_FR only" 4 "PDC_RL only" 5 "PDC_RR only" 6 "PDC_FL+FR" 7 "PDC_FL+RL" 8 "PDC_FL+RR" 9 "PDC_FR+RL" 10 "PDC_FR+RR" 11 "PDC_RL+RR" 12 "PDC_FL+FR+RL" 13 "PDC_FL+FR+RR" 14 "PDC_FL+RL+RR" 15 "PDC_FR+RL+RR" 16 "PDC_all" 17 "BSD_L only" 18 "BSD_R only" 19 "BSD_L+R" 20 "CHIME OFF" 21 "Reserved" 22 "Reserved" 23 "Reserved" 24 "Reserved" 25 "Reserved" 26 "Reserved" 27 "Reserved" 28 "Reserved" 29 "Reserved" 30 "Reserved" 31 "Reserved" 32 "Reserved" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1140 STAT_AMPMediaDuck 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1140 STAT_AMPSpeedVolume 0 "Not Active" 1 "OFF" 2 "Low" 3 "Middle" 4 "High" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1140 STAT_AMPMute 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1140 STAT_AMPRestoreDefaults 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1140 STAT_AMPAlarmVolume 0 "Not Active" 1 "1" 2 "2" 3 "3" 4 "4" 5 "5" 6 "6" 7 "7" 8 "8" 9 "9" 10 "10" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1140 STAT_Headrest_Mode 0 "Not Active" 1 "Share Mode" 2 "Enjoy Driving Mode" 3 "Enjoy Private Mode" ;
+VAL_ 1140 STAT_AMPSoundEffectMegaBass 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1140 STAT_AMPSoundEffectMidBass 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1140 STAT_AMPSoundEffectMidTreble 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1140 STAT_VirtualSbwfrOnOff 0 "Not Active" 1 "VocalConcert" 2 "ConcertHall" 3 "OFF" ;
+VAL_ 1140 STAT_SurndFnOnOff 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1140 STAT_AMPBackgroundVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1140 STAT_AMPSoundBypass 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1140 STAT_AMPPwrRdySts 0 "Not Active" 1 "Not Ready" 2 "Ready" 3 "Reserved" ;
+VAL_ 1206 EAMP_AMPKTVvoiceVolumeFed 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1206 EAMP_AMPENCVolumeFed 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1206 EAMP_AMPA2BKTVvoiceSoundFed 0 "Not Active" 1 "IESS OFF and KTV OFF（默认值)" 2 "IESS OFF and KTV ON" 3 "IESS ON and KTV OFF" 4 "IESS ON and KTV ON" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1206 STAT_AMPSoundFocus_2 0 "Not Active" 1 "Customized" 2 "All" 3 "Driver" 4 "Sleep" 5 "VIP" 6 "FrontRow" 7 "BackRow" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1206 EAMP_AMPA2BENCSoundFed 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1206 EAMP_AMPA2BChimeSoundFed 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1206 STAT_AMPLoudness 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1206 STAT_AMPKeyVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1206 STAT_AMPExSoundmode 0 "Not Active" 1 "Soundmode1" 2 "Soundmode2" 3 "Soundmode3" 4 "OFF" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1206 STAT_AMPA2BENCSound 0 "Not Active" 1 "FL+FR+RL+SWF" 2 "FL+FR+SWF+RR" 3 "FL+FR+RL+RR" 4 "OFF" 5 "reserved" 6 "reserved" 7 "reserved" ;
+VAL_ 1578 RMR_EAMP 0 "Inactive" 1 "Active" ;
+VAL_ 1578 EAMP_Wakeup_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1578 EAMP_Wakeup_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1578 EAMP_Wakeup_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1578 EAMP_Awake_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1578 EAMP_Awake_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1578 EAMP_Awake_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1322 STAT_AMPAlarm 0 "Not Active" 1 "Other CHIME" 2 "PDC_FL only" 3 "PDC_FR only" 4 "PDC_RL only" 5 "PDC_RR only" 6 "PDC_FL+FR" 7 "PDC_FL+RL" 8 "PDC_FL+RR" 9 "PDC_FR+RL" 10 "PDC_FR+RR" 11 "PDC_RL+RR" 12 "PDC_FL+FR+RL" 13 "PDC_FL+FR+RR" 14 "PDC_FL+RL+RR" 15 "PDC_FR+RL+RR" 16 "PDC_all" 17 "BSD_L only" 18 "BSD_R only" 19 "BSD_L+R" 20 "CHIME OFF" 21 "Reserved" 22 "Reserved" 23 "Reserved" 24 "Reserved" 25 "Reserved" 26 "Reserved" 27 "Reserved" 28 "Reserved" 29 "Reserved" 30 "Reserved" 31 "Reserved" 32 "Reserved" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1100 Set_AMPNaviVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1100 Set_AMPVRVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1100 Set_AMPKeyTone 0 "Not Active" 1 "ON" 2 "OFF" 3 "reserved" ;
+VAL_ 1100 Set_AMPMediaVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1100 Set_AMPPhoneVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "Reserved" 28 "Reserved" 29 "Reserved" 30 "Reserved" 31 "Reserved" ;
+VAL_ 1100 Set_AMPSoundFocus 0 "Not Active" 1 "Customized" 2 "All" 3 "Driver" 4 "Sleep" 5 "VIP" 6 "Dolby7.1.4" 7 "Reserved" ;
+VAL_ 1100 Set_AMPSoundEffect 0 "Not Active" 1 "Customer-defined mode" 2 "Standard mode" 3 "Popular mode" 4 "Jazz mode" 5 "Classic mode" 6 "Rock mode" 7 "Vocal mode" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1100 Set_AMPSoundEffectBass 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1100 Set_AMPSoundEffectMidrange 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1100 Set_AMPSoundEffectTreble 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1100 Set_AMPSoundFieldBalance 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1100 Set_AMPSoundFieldFader 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1100 Set_Headrest_Mode 0 "Not Active" 1 "Share Mode" 2 "Enjoy Driving Mode" 3 "Enjoy Private Mode" ;
+VAL_ 1100 Set_SurndFnOnOff 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1100 Set_VirtualSbwfrOnOff 0 "Not Active" 1 "VocalConcert" 2 "ConcertHall" 3 "OFF" ;
+VAL_ 1119 Set_AMPMediaDuck 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 Set_AMPSpeedVolume 0 "Not Active" 1 "OFF" 2 "Low" 3 "Middle" 4 "High" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1119 Set_AMPMute 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 REQ_AMPA2BMediaSound 0 "Not Active" 1 "Media" 2 "Background" 3 "OFF" ;
+VAL_ 1119 REQ_AMPA2BNaviSound 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 REQ_AMPA2BVRSound 0 "Not Active" 1 "VR" 2 "Siri" 3 "OFF" ;
+VAL_ 1119 REQ_AMPA2BTTSSound 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 REQ_AMPA2BKeyTone 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 Set_AMPRestoreDefaults 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 Set_AMPAlarmVolume 0 "Not Active" 1 "1" 2 "2" 3 "3" 4 "4" 5 "5" 6 "6" 7 "7" 8 "8" 9 "9" 10 "10" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 1119 REQ_AMPA2BPhoneSound 0 "Not Active" 1 "BT Phone Sound ON" 2 "Tbox Sound ON" 3 "OFF" ;
+VAL_ 1119 Set_AMPSoundEffectMegaBass 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1119 Set_AMPSoundEffectMidBass 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1119 Set_AMPSoundEffectMidTreble 0 "Not Active" 1 "-7" 2 "-6" 3 "-5" 4 "-4" 5 "-3" 6 "-2" 7 "-1" 8 "0" 9 "1" 10 "2" 11 "3" 12 "4" 13 "5" 14 "6" 15 "7" ;
+VAL_ 1119 Set_AMPBackgroundVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1119 Set_AMPSoundBypass 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1119 Set_AMPA2BConfig 0 "Not Active" 1 "Not OK" 2 "OK" 3 "Reserved" ;
+VAL_ 1331 ICC_AMPKTVvoiceVolumeSet 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1331 ICC_AMPA2BENCSoundReq 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1331 ICC_AMPENCVolumeSet 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1331 ICC_AMPA2BChimeSoundReq 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1331 Set_AMPSoundFocus_2 0 "Not Active" 1 "Customized" 2 "All" 3 "Driver" 4 "Sleep" 5 "VIP" 6 "FrontRow" 7 "BackRow" ;
+VAL_ 1331 ICC_AMPA2BKTVvoiceSoundReq 0 "Not Active" 1 "IESS OFF and KTV OFF（默认值)" 2 "IESS OFF and KTV ON" 3 "IESS ON and KTV OFF" 4 "IESS ON and KTV ON" ;
+VAL_ 1331 Set_AMPLoudness 0 "Not Active" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1331 Set_AMPKeyVolume 0 "Not Active" 1 "0" 2 "1" 3 "2" 4 "3" 5 "4" 6 "5" 7 "6" 8 "7" 9 "8" 10 "9" 11 "10" 12 "11" 13 "12" 14 "13" 15 "14" 16 "15" 17 "16" 18 "17" 19 "18" 20 "19" 21 "20" 22 "21" 23 "22" 24 "23" 25 "24" 26 "25" 27 "26" 28 "27" 29 "28" 30 "29" 31 "30" 32 "31" 33 "Reserved" 34 "Reserved" 35 "Reserved" 36 "Reserved" 37 "Reserved" 38 "Reserved" 39 "Reserved" 40 "Reserved" 41 "Reserved" 42 "Reserved" 43 "Reserved" 44 "Reserved" 45 "Reserved" 46 "Reserved" 47 "Reserved" 48 "Reserved" 49 "Reserved" 50 "Reserved" 51 "Reserved" 52 "Reserved" 53 "Reserved" 54 "Reserved" 55 "Reserved" 56 "Reserved" 57 "Reserved" 58 "Reserved" 59 "Reserved" 60 "Reserved" 61 "Reserved" 62 "Reserved" 63 "Reserved" ;
+VAL_ 1331 Set_AMPExSoundmode 0 "Not Active" 1 "Soundmode1" 2 "Soundmode2" 3 "Soundmode3" 4 "OFF" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1331 Set_AMPA2BENCSound 0 "Not Active" 1 "FL+FR+RL+SWF" 2 "FL+FR+SWF+RR" 3 "FL+FR+RL+RR" 4 "OFF" 5 "reserved" 6 "reserved" 7 "reserved" ;
+VAL_ 1181 FLZCU_9_PowerMode 0 "Off" 1 "Comfortable" 2 "ON" 3 "Reserved" ;
+VAL_ 1204 VCU_1_G_PRNDGearAct 0 "Init" 1 "P" 2 "R" 3 "N" 4 "D" 5 "Reserved" 6 "Reserved" 7 "Reserved" ;
+VAL_ 1162 VehicleSpeedVSOSigValidData 0 "Valid" 1 "Not valid" ;
+VAL_ 1202 EMS_EngineSts_Actual 0 "Not Run" 1 "Run" ;
+VAL_ 1172 BlowSpeedLevelDisplaySts 0 "Not_Active" 1 "Level_1" 2 "Level_2" 3 "Level_3" 4 "Level_4" 5 "Level_5" 6 "Level_6" 7 "Level_7" 8 "Level_8" 9 "Level_9" 10 "Level_10" 11 "Reserved" 12 "Level_0" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
